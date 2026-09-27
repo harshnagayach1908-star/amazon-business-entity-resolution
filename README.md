@@ -28,7 +28,8 @@ corresponding entities in Source 2 and Source 3.
 - Address token similarity
 - Number overlap
 - Country match
-- Address missing indicators
+- Source 1 address missing indicator
+- Candidate address missing indicator
 
 ## Machine Learning Model
 
@@ -49,12 +50,17 @@ Random Forest Classifier
 ### amazon_entity_resolution.ipynb
 
 Complete project notebook containing preprocessing,
-candidate generation, feature engineering, model training
+candidate generation, feature engineering, model training,
 and entity matching.
 
 ### requirements.txt
 
 Contains the Python libraries required to run the project.
+
+### .gitignore
+
+Specifies files and folders that should not be uploaded
+to the GitHub repository.
 
 ## Dataset
 
